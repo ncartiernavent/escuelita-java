@@ -29,6 +29,18 @@ public class Posting {
         this.status = status;
     }
 
+    public Posting(Integer postingId, String title, Price price, RealestateTypeEnum realestateType, OperationTypeEnum operationType, PostingType postingType, Double quality, StatusEnum status, Date creationDate) {
+        this.postingId = postingId;
+        this.title = title;
+        this.price = price;
+        this.realestateType = realestateType;
+        this.operationType = operationType;
+        this.postingType = postingType;
+        this.quality = quality;
+        this.status = status;
+        this.creationDate = creationDate;
+    }
+
     public Integer getPostingId() {
         return postingId;
     }
